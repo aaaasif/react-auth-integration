@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const REgister = () => {
+const Register = () => {
     return (
         <div>
-            <h1>Please register kore felo</h1>
+            <h2>Please Register</h2>
             <form>
                 <input type="email" />
                 <br />
@@ -12,9 +12,9 @@ const REgister = () => {
                 <br />
                 <input type="submit" value="Submit" />
             </form>
-            <Link to="/login">Already Register?</Link>
+            <Link to="/login">Already Registered?</Link>
         </div>
     );
 };
 
-export default REgister;
+export default Register;
